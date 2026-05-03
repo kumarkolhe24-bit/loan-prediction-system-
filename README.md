@@ -4,17 +4,17 @@ A complete end-to-end AI-powered loan approval system with explainability, risk 
 
 ## 🌟 Features
 
-- ✅ **Loan Approval Prediction** - 98.48% accuracy using Decision Tree
-- 📊 **Risk Scoring** - 0-100 risk assessment
-- 🧠 **Explainability** - SHAP-based decision explanations
-- 💡 **Smart Suggestions** - Actionable improvement recommendations
-- 🔮 **What-If Analysis** - Simulate different scenarios
-- ⚠️ **Anomaly Detection** - Data quality validation
-- 🌐 **REST API** - FastAPI backend
-- 🎨 **Interactive UI** - Streamlit frontend
-- 📈 **History Tracking** - All predictions logged
+-  **Loan Approval Prediction** - 98.48% accuracy using Decision Tree
+-  **Risk Scoring** - 0-100 risk assessment
+-  **Explainability** - SHAP-based decision explanations
+-  **Smart Suggestions** - Actionable improvement recommendations
+-  **What-If Analysis** - Simulate different scenarios
+-  **Anomaly Detection** - Data quality validation
+-  **REST API** - FastAPI backend
+-  **Interactive UI** - Streamlit frontend
+-  **History Tracking** - All predictions logged
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 loan-project/
@@ -50,7 +50,7 @@ loan-project/
 └── README.md                      # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -103,7 +103,7 @@ streamlit run app.py
 # UI will open at: http://localhost:8501
 ```
 
-## 📊 Model Performance
+## 📊Model Performance
 
 | Model | Training Accuracy | Test Accuracy |
 |-------|------------------|---------------|
@@ -113,7 +113,7 @@ streamlit run app.py
 
 **Best Model**: Decision Tree (98.48% accuracy)
 
-## 🎯 Key Features Explained
+##  Key Features Explained
 
 ### 1. Risk Scoring System
 
@@ -209,7 +209,7 @@ Perform what-if analysis.
 }
 ```
 
-## 🎨 Frontend Features
+##  Frontend Features
 
 ### Application Tab
 - Input form for all loan details
@@ -279,7 +279,7 @@ no_of_dependents,education,self_employed,income_annum,...,prediction,risk_score,
 2, Graduate, No,5000000,...,0,15,2024-04-14T12:00:00
 ```
 
-## 🔒 Critical Rules (DO NOT VIOLATE)
+##  Critical Rules (DO NOT VIOLATE)
 
 1. ✅ Same preprocessing in training and prediction
 2. ✅ Never include `loan_status` in features
@@ -303,7 +303,7 @@ no_of_dependents,education,self_employed,income_annum,...,prediction,risk_score,
 ### Issue: Import Errors
 **Solution**: Install all required packages
 
-## 📈 Future Enhancements
+##  Future Enhancements
 
 - [ ] Add more ML models (XGBoost, LightGBM)
 - [ ] Implement A/B testing
@@ -314,7 +314,7 @@ no_of_dependents,education,self_employed,income_annum,...,prediction,risk_score,
 - [ ] Add model retraining pipeline
 - [ ] Create mobile app
 
-## 👨‍💻 Development
+##  Development
 
 ### Adding New Features
 
@@ -340,11 +340,11 @@ python phase4_explainability.py
 # 5. Restart services
 ```
 
-## 📄 License
+##  License
 
 MIT License - Feel free to use and modify
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions welcome! Please:
 1. Fork the repository
@@ -352,10 +352,9 @@ Contributions welcome! Please:
 3. Make your changes
 4. Submit a pull request
 
-## 📧 Contact
+##  Contact
 
 For questions or support, please open an issue.
 
 ---
 
-**Built with ❤️ using Python, Scikit-learn, FastAPI, and Streamlit**
